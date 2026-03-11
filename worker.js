@@ -9,7 +9,7 @@
  */
 import WebSocket from "ws";
 import fetch from "node-fetch";
-import { createClientFromRequest } from 'npm:@base44/sdk@0.8.20';
+import { createClientFromRequest } from '@base44/sdk';
 
 const WS_URL          = "wss://stream.binance.com:9443/ws/!miniTicker@arr";
 const PRICE_WINDOW_MS = 90000;       // 90s de histórico por símbolo
