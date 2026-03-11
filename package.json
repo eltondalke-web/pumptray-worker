@@ -1,0 +1,13 @@
+{
+  "name": "pumptray-worker",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "worker.js",
+  "scripts": {
+    "start": "node worker.js"
+  },
+  "dependencies": {
+    "ws": "^8.17.0",
+    "node-fetch": "^3.3.2"
+  }
+}
