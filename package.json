@@ -6,8 +6,9 @@
   "scripts": {
     "start": "node worker.js"
   },
-  "dependencies": {
-    "ws": "^8.17.0",
-    "node-fetch": "^3.3.2"
-  }
+ "dependencies": {
+  "ws": "^8.17.0",
+  "node-fetch": "^3.3.2",
+  "@base44/sdk": "^0.8.20"
+}
 }
